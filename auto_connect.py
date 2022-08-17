@@ -21,7 +21,7 @@ def creon_connect():
     time.sleep(10)
 
     app = application.Application()
-    app.start('C:\CREON\STARTER\coStarter.exe /prj:cp /id:gog6012 /pwd:gkvhs12! /pwdcert:qkrtjdcks1028! /autostart')
+    app.start('C:\CREON\STARTER\coStarter.exe ##########')
     # 앱 시작 경로/id/비번/공인비번/autostart # cp는 크레온 플러스를 의미, c 가 일반 hts
     time.sleep(35)
 
