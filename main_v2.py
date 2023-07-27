@@ -25,8 +25,8 @@ class auto_stock():
             print('크레온 연결 실패 확인 바랍니다.')
 
         # 마리아 디비 연결정보
-        self.maria_conn = pymysql.connect(host='localhost', port=3306, db='investar',
-                                          user='root', passwd='1028', charset='utf8', autocommit=True)  # 로그인 정보
+        self.maria_conn = pymysql.connect(host='localhost', port=3306, db='####',
+                                          user='root', passwd='####', charset='utf8', autocommit=True)  # 로그인 정보
 
         # 크레온 관련
         self.cptradeutil = win32com.client.Dispatch('CpTrade.CpTdUtil')  # 주문관련도구
